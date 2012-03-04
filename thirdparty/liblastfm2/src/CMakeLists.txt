@@ -86,13 +86,14 @@ endif(WIN32)
 
 qt4_wrap_cpp(MOC_SOURCES ${MOC_HEADERS})
 
-IF( WIN32 )
+IF( WIN32 OR APPLE)
+    add_definitions( -DLASTFM_LIB )
     add_library(tomahawk_lastfm2 SHARED
     ${SOURCES}
     ${MOC_SOURCES}
     )
 ELSE()
-    add_definitions(-fPIC)
+    add_definitions(-fPIC -DLASTFM_LIB_STATIC)
     add_library(tomahawk_lastfm2 STATIC
     ${SOURCES}
     ${MOC_SOURCES}
