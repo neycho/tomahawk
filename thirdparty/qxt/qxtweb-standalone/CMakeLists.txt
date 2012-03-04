@@ -85,6 +85,7 @@ IF(WIN32)
              ARCHIVE DESTINATION lib
     )
 ELSE()
+	ADD_DEFINITIONS( -DQXT_STATIC )
 	ADD_LIBRARY(qxtweb-standalone STATIC
 			${mocstuff}
 			${headers}
