@@ -69,6 +69,9 @@ public:
     // used by XmppAccount to expose connection state and controls
     Tomahawk::Accounts::Account::ConnectionState connectionState() const;
 
+    // the info plugin needs to know the client to push NowPlaying info
+    Jreen::Client* jreenClient();
+
 signals:
     void jidChanged( const QString& );
 

@@ -21,6 +21,7 @@
 #include "xmppconfigwidget.h"
 #include "sip/SipPlugin.h"
 #include "ui_xmppconfigwidget.h"
+#include "XmppInfoPlugin.h"
 
 #include <QtCore/QtPlugin>
 
@@ -75,6 +76,25 @@ XmppAccount::isAuthenticated() const
 }
 
 
+InfoSystem::InfoPlugin*
+XmppAccount::infoPlugin()
+{
+    if( m_xmppInfoPlugin.isNull() )
+    {
+        m_xmppInfoPlugin = QWeakPointer<Tomahawk::InfoSystem::XmppInfoPlugin>(new Tomahawk::InfoSystem::XmppInfoPlugin());
+
+
+        // create the sipPlugin if it's not available yet
+        sipPlugin();
+
+        m_xmppInfoPlugin.data()->setJreenClient(m_xmppSipPlugin.data()->jreenClient());
+    }
+
+    return m_xmppInfoPlugin.data();
+}
+
+
+
 Account::ConnectionState
 XmppAccount::connectionState() const
 {
@@ -87,7 +107,6 @@ XmppAccount::saveConfig()
     if ( !m_configWidget.isNull() )
         static_cast< XmppConfigWidget* >( m_configWidget.data() )->saveConfig();
 }
-
 
 SipPlugin*
 XmppAccount::sipPlugin()

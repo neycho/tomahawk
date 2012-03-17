@@ -41,6 +41,7 @@
 #include "infoplugins/unix/mprisplugin.h"
 #endif
 
+#include "NowPlayingInfoPlugin.h"
 #include "infoplugins/generic/RoviPlugin.h"
 
 namespace Tomahawk

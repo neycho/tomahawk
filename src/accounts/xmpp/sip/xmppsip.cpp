@@ -994,3 +994,10 @@ XmppSipPlugin::connectionState() const
 {
     return m_state;
 }
+
+
+Jreen::Client*
+XmppSipPlugin::jreenClient()
+{
+    return m_client;
+}

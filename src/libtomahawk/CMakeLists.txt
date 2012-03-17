@@ -245,6 +245,7 @@ set( libSources
     infosystem/infosystemcache.cpp
     infosystem/infosystemworker.cpp
 
+    infosystem/NowPlayingInfoPlugin.cpp
     infosystem/infoplugins/generic/echonestplugin.cpp
     infosystem/infoplugins/generic/chartsplugin.cpp
     infosystem/infoplugins/generic/spotifyPlugin.cpp

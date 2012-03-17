@@ -14,6 +14,7 @@ set( xmppAccountSources
     sip/tomahawkxmppmessagefactory.cpp
     sip/avatarmanager.cpp
     sip/xmlconsole.cpp
+    XmppInfoPlugin.cpp
 )
 
 set( xmppAccountHeaders
@@ -22,6 +23,7 @@ set( xmppAccountHeaders
     sip/xmppsip.h
     sip/avatarmanager.h
     sip/xmlconsole.h
+    XmppInfoPlugin.h
 )
 
 set( xmppAccountUI
@@ -60,5 +62,5 @@ ENDIF( APPLE )
 
 install( TARGETS tomahawk_account_xmpp DESTINATION ${CMAKE_INSTALL_LIBDIR} )
 
-add_subdirectory(googlewrapper)
+# add_subdirectory(googlewrapper)
 

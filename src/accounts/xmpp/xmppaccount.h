@@ -22,6 +22,8 @@
 #define XMPPACCOUNT_H
 
 #include "sip/xmppsip.h"
+#include "XmppInfoPlugin.h"
+
 #include "accounts/accountdllmacro.h"
 #include "accounts/Account.h"
 
@@ -68,7 +70,7 @@ public:
     void deauthenticate();
     bool isAuthenticated() const;
 
-    Tomahawk::InfoSystem::InfoPlugin* infoPlugin() { return 0; }
+    Tomahawk::InfoSystem::InfoPlugin* infoPlugin();
     SipPlugin* sipPlugin();
 
     QWidget* configurationWidget() { return m_configWidget.data(); }
@@ -80,6 +82,7 @@ public:
 protected:
     QWeakPointer< QWidget > m_configWidget; // so the google wrapper can change the config dialog a bit
     QWeakPointer< XmppSipPlugin > m_xmppSipPlugin;
+    QWeakPointer< Tomahawk::InfoSystem::XmppInfoPlugin > m_xmppInfoPlugin;
 };
 
 };
