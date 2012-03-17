@@ -43,6 +43,9 @@ namespace Tomahawk {
 
             // actually this should be set in the ctor
             // but this way we uncouple the order of initialization
+            // of SipPlugin and InfoSystemPlugin
+            // maybe we should add the possibility to emit new InfoPlugins
+            // from accounts
             void setJreenClient(Jreen::Client* client);
 
         protected:
