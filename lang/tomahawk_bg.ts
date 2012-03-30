@@ -6,7 +6,6 @@
     <message>
         <location filename="../src/libtomahawk/aclregistry.cpp" line="140"/>
         <source>Connect to Peer?</source>
-        <translatorcomment>потребител ми се струва, най-близкият по значение  превод на &apos;peer&apos;</translatorcomment>
         <translation>Свързване към друг потребител?</translation>
     </message>
     <message>
@@ -864,102 +863,112 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message>
         <location filename="../src/libtomahawk/accounts/Account.cpp" line="34"/>
         <source>Friend Finders</source>
-        <translation></translation>
+        <translation>Търсене на приятели</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/accounts/Account.cpp" line="36"/>
         <source>Music Finders</source>
-        <translation></translation>
+        <translation>Търсене на музика</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/accounts/Account.cpp" line="39"/>
         <source>Status Updaters</source>
-        <translation type="unfinished"></translation>
+        <translation>Обновяване на статус</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="214"/>
         <source>%n year(s) ago</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform>Преди %n години</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="216"/>
         <source>%n year(s)</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform>%n години</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="222"/>
         <source>%n month(s) ago</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform>Преди %n месеца</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="224"/>
         <source>%n month(s)</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform>%n месеца</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="230"/>
         <source>%n week(s) ago</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform>Преди %n седмици</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="232"/>
         <source>%n week(s)</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform>%n седмици</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="238"/>
         <source>%n day(s) ago</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform>Преди %n дена</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="240"/>
         <source>%n day(s)</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform>%n дни</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="246"/>
         <source>%n hour(s) ago</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform>Преди %n часа</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="248"/>
         <source>%n hour(s)</source>
-        <translation type="unfinished">
+        <translation>
+            <numerusform> %n часа</numerusform>
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="254"/>
         <source>%1 minutes ago</source>
-        <translation type="unfinished"></translation>
+        <translation>Преди %1 минути</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="256"/>
         <source>%1 minutes</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 минути</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="260"/>
         <source>just now</source>
-        <translation type="unfinished"></translation>
+        <translation>Сега</translation>
     </message>
 </context>
 <context>
@@ -1587,7 +1596,7 @@ Spotify e TM на Spotify Group.</translation>
         <location filename="../src/accounts/twitter/twitterconfigwidget.cpp" line="92"/>
         <location filename="../src/accounts/twitter/twitterconfigwidget.cpp" line="168"/>
         <source>Authenticate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Удостовери</translation>
     </message>
     <message>
         <location filename="../src/accounts/twitter/twitterconfigwidget.cpp" line="74"/>
@@ -1599,7 +1608,7 @@ Spotify e TM на Spotify Group.</translation>
         <location filename="../src/accounts/twitter/twitterconfigwidget.cpp" line="75"/>
         <location filename="../src/accounts/twitter/twitterconfigwidget.cpp" line="137"/>
         <source>De-authenticate</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Премахни усостоверяване</translation>
     </message>
     <message>
         <location filename="../src/accounts/twitter/twitterconfigwidget.cpp" line="122"/>
@@ -2850,37 +2859,37 @@ enter the displayed PIN number here:</source>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="49"/>
         <source>Tracks</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Изпълнения</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="50"/>
         <source>Artists</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Артиста</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="54"/>
         <source>Filter</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Филтър</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="84"/>
         <source>Artist View</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Преглед на артист</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="85"/>
         <source>Flat View</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Плосък изглед</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="195"/>
         <source>Sources</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Източници</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="247"/>
         <source>Shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Показани</translation>
     </message>
 </context>
 <context>
@@ -3058,17 +3067,17 @@ enter the displayed PIN number here:</source>
     <message>
         <location filename="../src/accounts/twitter/twitterconfigwidget.ui" line="137"/>
         <source>Status: No saved credentials</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Статус: Няма запаметени данни за вход</translation>
     </message>
     <message>
         <location filename="../src/accounts/twitter/twitterconfigwidget.ui" line="166"/>
         <source>Authenticate with Twitter</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Удостовери в Twitter</translation>
     </message>
     <message>
         <location filename="../src/accounts/twitter/twitterconfigwidget.ui" line="196"/>
         <source>Twitter Connections</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Twitter връзки</translation>
     </message>
     <message>
         <location filename="../src/accounts/twitter/twitterconfigwidget.ui" line="202"/>
@@ -3078,37 +3087,40 @@ If you only want to post tweets, you&apos;re done.
 If you want to connect Tomahawk to your friends using Twitter, select the type of tweet and press the button below to send a sync message. You must both be following each other as Direct Messages are used. Then be (very) patient -- it can take several minutes!
 
 You can re-send a sync message at any time simply by sending another tweet using the button.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">
+Ако само желаете да побликуваш съобщения,  си готов.
+Ако желаеш да се свържеш с твои приятели, ползващи Twitter, избери тип на съобщението и натисни бутонът от долу, за изпращане. Трябва взаимно да се следвате, за да можете да ползвате функцията DM. 
+След изпращане, бъди търпелив. Може да изминат няколко минути преди побликуване.</translation>
     </message>
     <message>
         <location filename="../src/accounts/twitter/twitterconfigwidget.ui" line="244"/>
         <source>Select the kind of tweet you would like, then press the button to post it:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Избери тип на съобщението и след това натисни бутонът, да го побликуваш.</translation>
     </message>
     <message>
         <location filename="../src/accounts/twitter/twitterconfigwidget.ui" line="276"/>
         <source>Global Tweet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Общо съобщение</translation>
     </message>
     <message>
         <location filename="../src/accounts/twitter/twitterconfigwidget.ui" line="281"/>
         <source>@Mention</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">@Споменаване</translation>
     </message>
     <message>
         <location filename="../src/accounts/twitter/twitterconfigwidget.ui" line="286"/>
         <source>Direct Message</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Лично съобщение</translation>
     </message>
     <message>
         <location filename="../src/accounts/twitter/twitterconfigwidget.ui" line="322"/>
         <source>e.g. @tomahawk</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">т.е. @tomahawk</translation>
     </message>
     <message>
         <location filename="../src/accounts/twitter/twitterconfigwidget.ui" line="351"/>
         <source>Send Message</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Изпрати съобщение</translation>
     </message>
 </context>
 <context>
@@ -3477,8 +3489,8 @@ Lyrics for &quot;%1&quot; by %2:
     <message>
         <location filename="../src/accounts/zeroconf/configwidget.ui" line="77"/>
         <source>This plugin will automatically find other users running Tomahawk on your local network</source>
-        <translation>Тази приставка, автоматично ще открие другите потребители 
-ползващи Tomahawk в локалната мрежа.</translation>
+        <translation type="unfinished">Тази приставка, автоматично ще открие другите потребители 
+ползващи Tomahawk в локалната мрежа</translation>
     </message>
     <message>
         <location filename="../src/accounts/zeroconf/configwidget.ui" line="84"/>
