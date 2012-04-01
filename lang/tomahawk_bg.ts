@@ -615,7 +615,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message>
         <location filename="../src/libtomahawk/jobview/LatchedStatusItem.cpp" line="33"/>
         <source>%1 is listening along to you!</source>
-        <translation type="unfinished">%1 слуша заедно с теб!</translation>
+        <translation>%1 слуша заедно с теб!</translation>
     </message>
 </context>
 <context>
@@ -705,12 +705,12 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message>
         <location filename="../src/libtomahawk/playlist/playlistitemdelegate.cpp" line="182"/>
         <source>played %1 by you</source>
-        <translation type="unfinished">изпълнена %1 от мен</translation>
+        <translation>изпълнена %1 от мен</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/playlistitemdelegate.cpp" line="184"/>
         <source>played %1 by %2</source>
-        <translation type="unfinished">изпълнена %1 от %2</translation>
+        <translation>изпълнена %1 от %2</translation>
     </message>
 </context>
 <context>
@@ -718,12 +718,12 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message>
         <location filename="../src/libtomahawk/playlist/PlaylistLargeItemDelegate.cpp" line="179"/>
         <source>played %1 by you</source>
-        <translation type="unfinished">изпълнена %1 от мен</translation>
+        <translation>изпълнена %1 от мен</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/PlaylistLargeItemDelegate.cpp" line="181"/>
         <source>played %1 by %2</source>
-        <translation type="unfinished">изпълнена %1 от %2</translation>
+        <translation>изпълнена %1 от %2</translation>
     </message>
 </context>
 <context>
@@ -731,7 +731,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message>
         <location filename="../src/libtomahawk/playlist/playlistmodel.cpp" line="77"/>
         <source>A playlist by %1, created %2</source>
-        <translation>Списък  с изпълниния на %1, създаден  %2</translation>
+        <translation type="unfinished">Списък с песни от %1, създаден  %2</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/playlistmodel.cpp" line="78"/>
@@ -741,12 +741,12 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message>
         <location filename="../src/libtomahawk/playlist/playlistmodel.cpp" line="132"/>
         <source>All tracks by %1 on album %2</source>
-        <translation type="unfinished">Всички изпълнения на %1 от албум %2</translation>
+        <translation type="unfinished">Всички песни от %1 от албум %2</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/playlistmodel.cpp" line="152"/>
         <source>All tracks by %1</source>
-        <translation type="unfinished">Всички изпълнения на %1</translation>
+        <translation type="unfinished">Всички песни от %1</translation>
     </message>
 </context>
 <context>
@@ -874,12 +874,12 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message>
         <location filename="../src/libtomahawk/accounts/Account.cpp" line="39"/>
         <source>Status Updaters</source>
-        <translation type="unfinished">Обновяване на статуси</translation>
+        <translation>Обновяване на статуси</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="214"/>
         <source>%n year(s) ago</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>преди %n година</numerusform>
             <numerusform>преди %n години</numerusform>
         </translation>
@@ -887,7 +887,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="216"/>
         <source>%n year(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>%n година</numerusform>
             <numerusform>%n години</numerusform>
         </translation>
@@ -895,7 +895,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="222"/>
         <source>%n month(s) ago</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>преди %n месец</numerusform>
             <numerusform>преди %n месеца</numerusform>
         </translation>
@@ -903,7 +903,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="224"/>
         <source>%n month(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>%n месец</numerusform>
             <numerusform>%n месеца</numerusform>
         </translation>
@@ -911,7 +911,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="230"/>
         <source>%n week(s) ago</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>преди %n седмица</numerusform>
             <numerusform>преди %n седмици</numerusform>
         </translation>
@@ -919,7 +919,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="232"/>
         <source>%n week(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>%n седмица</numerusform>
             <numerusform>%n седмици</numerusform>
         </translation>
@@ -927,7 +927,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="238"/>
         <source>%n day(s) ago</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>преди %n ден</numerusform>
             <numerusform>преди %n дена</numerusform>
         </translation>
@@ -935,7 +935,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="240"/>
         <source>%n day(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>%n ден</numerusform>
             <numerusform>%n дена</numerusform>
         </translation>
@@ -943,7 +943,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="246"/>
         <source>%n hour(s) ago</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform>преди  %n час</numerusform>
             <numerusform>преди  %n часа</numerusform>
         </translation>
@@ -951,7 +951,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message numerus="yes">
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="248"/>
         <source>%n hour(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform> %n час</numerusform>
             <numerusform> %n часа</numerusform>
         </translation>
@@ -959,7 +959,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message>
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="254"/>
         <source>%1 minutes ago</source>
-        <translation type="unfinished">преди %1 минути</translation>
+        <translation>преди %1 минути</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="256"/>
@@ -969,7 +969,7 @@ Remember: Only allow peers to connect if you trust who they are and if you have 
     <message>
         <location filename="../src/libtomahawk/utils/tomahawkutils.cpp" line="260"/>
         <source>just now</source>
-        <translation type="unfinished">току-що</translation>
+        <translation>току-що</translation>
     </message>
 </context>
 <context>
@@ -1526,12 +1526,12 @@ Spotify e TM на Spotify Group.</translation>
     <message>
         <location filename="../src/accounts/xmpp/googlewrapper/googlewrapper.cpp" line="61"/>
         <source>Add Friend</source>
-        <translation type="unfinished">Добави приятел</translation>
+        <translation>Добави приятел</translation>
     </message>
     <message>
         <location filename="../src/accounts/xmpp/googlewrapper/googlewrapper.cpp" line="62"/>
         <source>Enter Google Address:</source>
-        <translation type="unfinished">Въведи Google регистрация:</translation>
+        <translation>Въведи Google регистрация:</translation>
     </message>
 </context>
 <context>
@@ -1574,7 +1574,7 @@ Spotify e TM на Spotify Group.</translation>
     <message>
         <location filename="../src/accounts/twitter/twitteraccount.h" line="50"/>
         <source>Connect to your Twitter followers.</source>
-        <translation type="unfinished">Свържи се с твоите приятели в Twitter</translation>
+        <translation>Свържи се с твоите приятели в Twitter</translation>
     </message>
 </context>
 <context>
@@ -1785,7 +1785,7 @@ You may wish to try re-authenticating.</source>
     <message>
         <location filename="../src/libtomahawk/playlist/customplaylistview.cpp" line="127"/>
         <source>Your loved tracks</source>
-        <translation>Песни, които харесваш ти</translation>
+        <translation type="unfinished">Песни, които харесвам аз</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/customplaylistview.cpp" line="129"/>
@@ -1795,12 +1795,12 @@ You may wish to try re-authenticating.</source>
     <message>
         <location filename="../src/libtomahawk/playlist/customplaylistview.cpp" line="138"/>
         <source>The most loved tracks from all your friends</source>
-        <translation>Харесваните песни от всички твои приятели</translation>
+        <translation type="unfinished">Харесваните песни от мен и всички мои приятели</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/customplaylistview.cpp" line="142"/>
         <source>All of your loved tracks</source>
-        <translation>Всички песни, които харесваш</translation>
+        <translation type="unfinished">Всички песни, които харесвам</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/customplaylistview.cpp" line="144"/>
@@ -1915,7 +1915,7 @@ Try tweaking the filters for a new set of songs to play.</source>
     <message>
         <location filename="../src/libtomahawk/playlist/dynamic/echonest/EchonestControl.cpp" line="235"/>
         <source>similar to</source>
-        <translation>подобен на</translation>
+        <translation>подобна(и) на</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/dynamic/echonest/EchonestControl.cpp" line="256"/>
@@ -2305,22 +2305,22 @@ Try tweaking the filters for a new set of songs to play.</source>
     <message>
         <location filename="../src/libtomahawk/infosystem/infoplugins/generic/chartsplugin.cpp" line="307"/>
         <source>Top Overall</source>
-        <translation type="unfinished"></translation>
+        <translation>Най-известни</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/infosystem/infoplugins/generic/chartsplugin.cpp" line="396"/>
         <source>Artists</source>
-        <translation type="unfinished"></translation>
+        <translation>Артисти</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/infosystem/infoplugins/generic/chartsplugin.cpp" line="398"/>
         <source>Albums</source>
-        <translation type="unfinished"></translation>
+        <translation>Албуми</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/infosystem/infoplugins/generic/chartsplugin.cpp" line="400"/>
         <source>Tracks</source>
-        <translation type="unfinished"></translation>
+        <translation>Песни</translation>
     </message>
 </context>
 <context>
@@ -2439,7 +2439,7 @@ Try tweaking the filters for a new set of songs to play.</source>
     <message>
         <location filename="../src/libtomahawk/query.cpp" line="646"/>
         <source>loved this track</source>
-        <translation>харесаха това изпълнение</translation>
+        <translation type="unfinished">хареса това изпълнение</translation>
     </message>
 </context>
 <context>
@@ -2736,12 +2736,12 @@ enter the displayed PIN number here:</source>
     <message>
         <location filename="../src/tomahawkwindow.cpp" line="457"/>
         <source>Enter peer port:</source>
-        <translation type="unfinished">Въведи порт:</translation>
+        <translation>Въведи порт:</translation>
     </message>
     <message>
         <location filename="../src/tomahawkwindow.cpp" line="465"/>
         <source>Enter peer key:</source>
-        <translation type="unfinished">Въведи ключът за удостоверяване:</translation>
+        <translation>Въведи ключът за удостоверяване:</translation>
     </message>
     <message>
         <location filename="../src/tomahawkwindow.cpp" line="561"/>
@@ -2756,23 +2756,23 @@ enter the displayed PIN number here:</source>
     <message>
         <location filename="../src/tomahawkwindow.cpp" line="565"/>
         <source>Failed to save tracks</source>
-        <translation type="unfinished">Неуспех при запазване на списък с песни</translation>
+        <translation>Неуспех при запазване на списък с песни</translation>
     </message>
     <message>
         <location filename="../src/tomahawkwindow.cpp" line="565"/>
         <source>Some tracks in the playlist do not contain an artist and a title. They will be ignored.</source>
-        <translation type="unfinished">Някои от песните в този списък нямат артист и заглавие. Те ще бъдат игнорирани.</translation>
+        <translation>Някои от песните в този списък нямат артист и заглавие. Те ще бъдат игнорирани.</translation>
     </message>
     <message>
         <location filename="../src/tomahawkwindow.cpp" line="579"/>
         <source>Sorry, there is a problem accessing your audio device or the desired track, current track will be skipped. Make sure you have a suitable Phonon backend and required plugins installed.</source>
-        <translation type="unfinished">Съжалявам. Има проблем с достъпа до твоето аудио-устройство или до избраната песен - тя ще бъде прескочена.
+        <translation>Съжалявам. Има проблем с достъпа до твоето аудио-устройство или до избраната песен - тя ще бъде прескочена.
 Моля, увери се, че са инсталирани подходящ Phonon и приставки.</translation>
     </message>
     <message>
         <location filename="../src/tomahawkwindow.cpp" line="581"/>
         <source>Sorry, there is a problem accessing your audio device or the desired track, current track will be skipped.</source>
-        <translation type="unfinished">Съжалявам. 
+        <translation>Съжалявам. 
 Има проблем с достъпа до твоето аудио устройство или избраната песен. Тя ще бъде пропусната.</translation>
     </message>
     <message>
@@ -2843,57 +2843,57 @@ enter the displayed PIN number here:</source>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.ui" line="26"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.ui" line="66"/>
         <source>0 Sources</source>
-        <translation type="unfinished">0 източника</translation>
+        <translation>0 източника</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.ui" line="89"/>
         <source>0 Tracks</source>
-        <translation type="unfinished">0 песни</translation>
+        <translation>0 песни</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.ui" line="112"/>
         <source>0 Artists</source>
-        <translation type="unfinished">0 артиста</translation>
+        <translation>0 артиста</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.ui" line="135"/>
         <source>0 Shown</source>
-        <translation type="unfinished">0 показани</translation>
+        <translation>0 показани</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="49"/>
         <source>Tracks</source>
-        <translation type="unfinished">Песни</translation>
+        <translation>Песни</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="50"/>
         <source>Artists</source>
-        <translation type="unfinished">Артисти</translation>
+        <translation>Артисти</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="54"/>
         <source>Filter</source>
-        <translation type="unfinished">Филтър</translation>
+        <translation>Филтър</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="84"/>
         <source>Artist View</source>
-        <translation type="unfinished">Преглед на артист</translation>
+        <translation>Преглед на артист</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="85"/>
         <source>Flat View</source>
-        <translation type="unfinished">Плосък изглед</translation>
+        <translation>Плосък изглед</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="195"/>
         <source>Sources</source>
-        <translation type="unfinished">Източници</translation>
+        <translation>Източници</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/playlist/topbar/topbar.cpp" line="247"/>
@@ -3245,13 +3245,13 @@ Lyrics for &quot;%1&quot; by %2:
     <message>
         <location filename="../src/libtomahawk/utils/xspfloader.cpp" line="51"/>
         <source>Some playlist entries were found without artist and track name, they will be omitted</source>
-        <translation type="unfinished">За някои от позициите не открих артист или име на песента.
+        <translation>За някои от позициите не открих артист или име на песента.
 Те ще бъдат пропуснати.</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/utils/xspfloader.cpp" line="53"/>
         <source>Failed to fetch the desired playlist from the network, or the desired file does not exist</source>
-        <translation type="unfinished">Неуспех при извличане на избраният списък през мрежата или избраният файл не съществува.</translation>
+        <translation>Неуспех при извличане на избраният списък през мрежата или избраният файл не съществува.</translation>
     </message>
     <message>
         <location filename="../src/libtomahawk/utils/xspfloader.cpp" line="184"/>
@@ -3285,7 +3285,7 @@ Lyrics for &quot;%1&quot; by %2:
     <message>
         <location filename="../src/accounts/xmpp/sip/xmlconsole.cpp" line="65"/>
         <source>By JID</source>
-        <translation type="unfinished">По Jabber ID</translation>
+        <translation>По Jabber ID</translation>
     </message>
     <message>
         <location filename="../src/accounts/xmpp/sip/xmlconsole.cpp" line="68"/>
@@ -3300,7 +3300,7 @@ Lyrics for &quot;%1&quot; by %2:
     <message>
         <location filename="../src/accounts/xmpp/sip/xmlconsole.cpp" line="76"/>
         <source>Visible stanzas</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../src/accounts/xmpp/sip/xmlconsole.cpp" line="79"/>
@@ -3499,7 +3499,7 @@ Lyrics for &quot;%1&quot; by %2:
     <message>
         <location filename="../src/accounts/zeroconf/configwidget.ui" line="77"/>
         <source>This plugin will automatically find other users running Tomahawk on your local network</source>
-        <translation type="unfinished">Тази приставка, автоматично ще открие другите потребители 
+        <translation>Тази приставка, автоматично ще открие другите потребители 
 ползващи Tomahawk в локалната мрежа</translation>
     </message>
     <message>
